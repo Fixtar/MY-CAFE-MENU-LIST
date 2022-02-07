@@ -4,6 +4,10 @@ import Welcome from './Welcom';
 import Timer from './Timer';
 import Toggle from './eventTest';
 import LoginControl from './LoginControl';
+import NumberList from './ListandKey';
+import NameForm from './NameForm';
+
+const numbers = [1, 2, 3, 4, 5];
 
 function App() {
   const name = "seongha";
@@ -17,6 +21,8 @@ function App() {
       <Timer />
       <Toggle />
       <LoginControl />
+      <NumberList numbers={numbers} />
+      <NameForm />
     </div>
   );
 }
