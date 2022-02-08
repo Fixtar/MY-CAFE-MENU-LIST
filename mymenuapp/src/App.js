@@ -6,7 +6,7 @@ import Toggle from './eventTest';
 import LoginControl from './LoginControl';
 import NumberList from './ListandKey';
 import NameForm from './NameForm';
-
+import Calculator from './boilingVerdict';
 const numbers = [1, 2, 3, 4, 5];
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <LoginControl />
       <NumberList numbers={numbers} />
       <NameForm />
+      <Calculator />
     </div>
   );
 }
