@@ -7,6 +7,7 @@ import LoginControl from './LoginControl';
 import NumberList from './ListandKey';
 import NameForm from './NameForm';
 import Calculator from './boilingVerdict';
+import Counter from './Counter';
 const numbers = [1, 2, 3, 4, 5];
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <NumberList numbers={numbers} />
       <NameForm />
       <Calculator />
+      <Counter />
     </div>
   );
 }
