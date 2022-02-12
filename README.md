@@ -1,2 +1,3 @@
-# MY-CAFE-MENU-LIST
-지역, 카페 별 나만의 메뉴 리스트
+# React-study
+리액트 공식문서 실습
+https://ko.reactjs.org/docs/getting-started.html
